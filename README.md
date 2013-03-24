@@ -23,7 +23,7 @@ A simple ORM
 为这个表建立的model为
 @Table(name = "tb_TestTable")
 public class TestTable extends ActiveRecordBase{
-  @Id(name = "tb_id")
+	@Id(name = "tb_id")
 	private int id;
 	@Column
 	private String name;
@@ -31,10 +31,11 @@ public class TestTable extends ActiveRecordBase{
 	private String where;
 	@Column
 	private java.util.Date when;
-
+	
 ........
 (some getters and setters)
 }
+
 
 @Table声明了该类是一个表的对象,name属性是可选的,如果填写name,则该类对应的表名为name的值,本例中name的值为表名
 tb_testtable,若不填写name,则qm86默认认为类名为DB表名testtable(注意是小写的)
