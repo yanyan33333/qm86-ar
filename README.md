@@ -1,6 +1,8 @@
 qm86-ar
 =======
 
+BLOG:herowblog.duapp.com
+
 A simple ORM
 
 这是一个简单的ORM,由于我觉得Hibernate的配置比较麻烦,而JFinal的ORM又不够灵活,之前看到过一个叫ETMVC的框架ORM写的挺好的,所以在参考了ETMVC和JFinal的部分源码后编写了qm86-ar.纯属个人娱乐,主要作学习用途,代码并不复杂,希望大家都能了解ORM的运作原理.目前只支持Oracle,之后还会支持其它DB的!前期肯定会有很多的bug,我会慢慢修好的^_^
